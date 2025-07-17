@@ -1,7 +1,7 @@
 {
-  "name": "project-name-here",
+  "name": "growin-node",
   "version": "0.0.1",
-  "description": "project description here",
+  "description": "Growin by Mandiri Sekuritas Node.js Wrapper (Unofficial)",
   "main": "./dist/index.js",
   "scripts": {
     "prepare": "node preinstall.js --max-old-space-size=10M",
@@ -12,7 +12,9 @@
   },
   "type": "module",
   "keywords": [
-    "project keywords"
+    "growin",
+    "stocks",
+    "bonds"
   ],
   "author": {
     "name": "Hanif Dwy Putra S",
@@ -21,12 +23,12 @@
   "license": "MIT",
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
-    "@swc/core": "^1.7.23",
-    "@types/node": "^20.16.5",
+    "@swc/core": "^1.12.14",
+    "@types/node": "^20.19.8",
     "husky": "^8.0.3",
     "is-ci": "^3.0.1",
     "is-git-dirty": "^2.0.2",
-    "tsup": "^8.2.4",
-    "typescript": "^5.5.4"
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
   }
 }
