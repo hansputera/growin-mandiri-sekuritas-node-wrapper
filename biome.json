@@ -47,8 +47,8 @@
 			},
 			"performance": {
 				"noDelete": "error",
-				"noReExportAll": "error",
-				"noBarrelFile": "error",
+				"noReExportAll": "off",
+				"noBarrelFile": "off",
 				"noAccumulatingSpread": "info"
 			},
 			"style": {

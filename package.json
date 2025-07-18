@@ -30,5 +30,9 @@
     "is-git-dirty": "^2.0.2",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "got": "^14.4.7",
+    "tough-cookie": "^5.1.2"
   }
 }
